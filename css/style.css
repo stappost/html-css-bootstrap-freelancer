@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* HEADER  */
 header .content{
     height: 50px;
     background-color: red;
 }
+/* COMMON  */
 .content{
     height: 300px;
     background-color: blue;
@@ -15,4 +17,7 @@ header .content{
 /* COLORS  */
 .bg_darkblue{
     background-color: darkblue;
+}
+.bg_green{
+    background-color: green;
 }
