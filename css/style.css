@@ -8,11 +8,12 @@ header > .bg_darkblue{
     height: 75px;
     display: flex;
     align-items: center;
+    padding-top: 10px;
 }
 
 header .border_white{
-    padding: 10px 15px;
-    border-radius: 10%;
+    padding: 5px 10px;
+    border-radius: 20%;
 } 
 /* MAIN   */
 .img_users{
@@ -39,6 +40,13 @@ footer a{
     border-radius: 50%;
     padding: 10px;
     margin: 5px;
+}
+footer .bg_darkblue i{
+    border: 2px solid white;
+    font-size: 7px;
+    border-radius: 50%;
+    padding: 1px;
+    vertical-align: middle;
 }
 /* COMMON  */
 .content{
