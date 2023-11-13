@@ -30,6 +30,16 @@ form textarea{
 footer .bg_darkblue .content{
     height: 50px;
 }
+footer a{
+    text-decoration: none;
+    color: #1abc9c;
+}
+.icons i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+}
 /* COMMON  */
 .content{
     height: 300px;
