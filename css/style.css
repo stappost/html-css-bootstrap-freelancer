@@ -9,12 +9,16 @@ header > .bg_darkblue{
     display: flex;
     align-items: center;
 }
-header .content{
- 
-}
+
 header .border_white{
     padding: 10px 15px;
     border-radius: 10%;
+} 
+/* MAIN   */
+.img_users{
+    width: 200px;
+    height: auto;
+    
 }
 /* FOOTER  */
 footer .bg_darkblue .content{
@@ -26,6 +30,35 @@ footer .bg_darkblue .content{
     background-color: blue;
     border: 1px solid black;
 }
+.star{
+    margin: 20px auto;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+}
+.star:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #ffffff;
+    left: 85px;
+    top: 50%;
+    position: absolute;
+}
+.star:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #ffffff;
+    right: 85px;
+    top: 50%;
+    position: absolute;
+}
+
 .border_white{
     border: 1px solid white;
 }
