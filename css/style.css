@@ -33,28 +33,47 @@ footer .bg_darkblue .content{
 .star{
     margin: 20px auto;
     text-align: center;
-    color: black;
     font-size: 30px;
     max-width: 600px;
     position: relative;
 }
-.star:before {
+.star.white:before {
     content: "";
     display: block;
-    width: 150px;
+    width: 100px;
     height: 5px;
     background: #ffffff;
-    left: 85px;
+    left: 135px;
     top: 50%;
     position: absolute;
 }
-.star:after {
+.star.white:after {
     content: "";
     display: block;
-    width: 150px;
+    width: 100px;
     height: 5px;
     background: #ffffff;
-    right: 85px;
+    right: 135px;
+    top: 50%;
+    position: absolute;
+}
+.star.darkblue:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: #2c3e50;
+    left: 135px;
+    top: 50%;
+    position: absolute;
+}
+.star.darkblue:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: #2c3e50;
+    right: 135px;
     top: 50%;
     position: absolute;
 }
