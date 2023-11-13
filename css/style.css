@@ -57,47 +57,47 @@ footer .bg_darkblue i{
 .star{
     margin: 20px auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     max-width: 600px;
     position: relative;
-}
+} 
 .star.white:before {
     content: "";
     display: block;
-    width: 100px;
+    width: 20%;
     height: 5px;
     background: #ffffff;
-    left: 135px;
+    left: 25%;
     top: 50%;
     position: absolute;
 }
 .star.white:after {
     content: "";
     display: block;
-    width: 100px;
+    width: 20%;
     height: 5px;
     background: #ffffff;
-    right: 135px;
+    right: 25%;
     top: 50%;
     position: absolute;
 }
 .star.darkblue:before {
     content: "";
     display: block;
-    width: 100px;
+    width: 20%;
     height: 5px;
     background: #2c3e50;
-    left: 135px;
+    left: 25%;
     top: 50%;
     position: absolute;
 }
 .star.darkblue:after {
     content: "";
     display: block;
-    width: 100px;
+    width: 20%;
     height: 5px;
     background: #2c3e50;
-    right: 135px;
+    right: 25%;
     top: 50%;
     position: absolute;
 }
@@ -114,7 +114,4 @@ footer .bg_darkblue i{
 }
 .bg_darkgrey{
     background-color: #3a546d;
-}
-.darkgrey{
-    color: #3a546d;
 }
