@@ -18,7 +18,13 @@ header .border_white{
 .img_users{
     width: 200px;
     height: auto;
-    
+}
+form input{
+    width: 100%;
+    margin: 10px 0;
+}
+form textarea{
+    width: 100%;
 }
 /* FOOTER  */
 footer .bg_darkblue .content{
@@ -90,4 +96,7 @@ footer .bg_darkblue .content{
 }
 .bg_darkgrey{
     background-color: #3a546d;
+}
+.darkgrey{
+    color: #3a546d;
 }
