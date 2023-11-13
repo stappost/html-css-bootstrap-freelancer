@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 /* HEADER  */
+header > .bg_darkblue{
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
 header .content{
-    height: 50px;
-    background-color: red;
+ 
+}
+header .border_white{
+    padding: 10px 15px;
+    border-radius: 10%;
 }
 /* FOOTER  */
 footer .bg_darkblue .content{
@@ -17,6 +25,9 @@ footer .bg_darkblue .content{
     height: 300px;
     background-color: blue;
     border: 1px solid black;
+}
+.border_white{
+    border: 1px solid white;
 }
 /* COLORS  */
 .bg_darkblue{
